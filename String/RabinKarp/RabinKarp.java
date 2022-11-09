@@ -9,7 +9,6 @@ public class RabinKarp {
 		int i, j;
 		int h = 1;
 
-		// Calculate hash of search text
 		for (i = 0; i < len_txt - 1; i++) {
 			h = (h * d) % q;
 		}
